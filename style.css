@@ -1,0 +1,20 @@
+.bat {
+    transition: transform .20s ease-in-out ;
+}
+.bat:hover{
+    transform: rotate(-60deg);
+    transform-origin: 100% 0%;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(60deg, #C61917, #96171C);
+    position: relative;
+    top: -60px;
+    left: 626px;
+    transition: transform 1s ease-in-out .25s;
+}
+.cricket:hover .ball{
+    transform: translate(1000px, -260px);
+}
