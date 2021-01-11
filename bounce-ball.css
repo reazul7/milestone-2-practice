@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+.stage{
+    height: 300px;
+    width: 100%;
+    background-color: lightsteelblue;
+}
+.stage:hover .ball{
+    animation: ball-bounce 4s ease-in-out .5s infinite alternate;
+}
+@keyframes ball-bounce{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: orangered;
+    }
+    25%{
+        top: 200px;
+        left: 25%;
+        background-color: orange;
+    }
+    50%{
+        top: 0;
+        left: 50%;
+        background-color: yellow;
+    }
+    75%{
+        top: 200px;
+        left: 75%;
+        background-color: greenyellow;
+    }
+    100%{
+        top: 0;
+        left: 100%;
+        background-color: skyblue;
+    }
+}
