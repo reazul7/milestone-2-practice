@@ -11,7 +11,7 @@ body{
 .stage{
     height: 300px;
     width: 100%;
-    background-color: lightsteelblue;
+    /* background-color: lightsteelblue; */
 }
 .stage:hover .ball{
     animation: ball-bounce 4s ease-in-out .5s infinite alternate;
